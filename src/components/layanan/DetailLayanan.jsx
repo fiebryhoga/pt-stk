@@ -28,23 +28,23 @@ const DetailLayanan = () => {
             description="Kami melayani pengangkutan material selain kapur sesuai kebutuhan logistik industri dan proyek Anda."
           />
           <CardLayanan
-            image="/assets/image/jual-batu.jpeg"
+            image="/assets/image/pedel.jpg"
             alt="Jual Beli Batu Kapur"
             title="Jual Beli Batu Kapur"
             description="Kami menyediakan batu kapur berkualitas tinggi untuk industri semen, pembangunan, dan pengolahan dolomit."
           />
           <CardLayanan
-            image="/assets/image/grosok.jpeg"
+            image="/assets/image/batukapur.jpg"
             alt="Grosok / Pedel Batu Kapur"
             title="Grosok / Pedel Batu Kapur"
             description="Batu kapur berukuran kecil untuk urugan, pemadatan, dan lapisan dasar proyek konstruksi Anda."
           />
-          <CardLayanan
+          {/* <CardLayanan
             image="/assets/image/kontrak.jpeg"
             alt="Sistem Kontrak Fleksibel"
             title="Sistem Kontrak Fleksibel"
             description="Layanan angkutan bisa harian, borongan, atau kontrak jangka panjang sesuai kebutuhan proyek Anda."
-          />
+          /> */}
         </div>
       </div>
     </section>

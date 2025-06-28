@@ -162,7 +162,7 @@ const Navbar = () => {
           <li className="ml-4">
             {" "}
             {/* Margin untuk memisahkan dari menu */}
-            <Button href="https://wa.me/6281234567890">Hubungi Kami</Button>
+            <Button href="/hubungiKami">Hubungi Kami</Button>
           </li>
         </ul>
       </div>
@@ -225,12 +225,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="pt-4">
-            <Button
-              href="https://wa.me/6281234567890"
-              onClick={() => setIsMenuOpen(false)}
-            >
+            <Link href="/hubungiKami" onClick={() => setIsMenuOpen(false)}>
               Hubungi Kami
-            </Button>
+            </Link>
           </li>
         </ul>
       </div>

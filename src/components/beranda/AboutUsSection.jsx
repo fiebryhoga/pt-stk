@@ -55,7 +55,7 @@ const AboutUsSection = () => {
 
         {/* Tombol CTA */}
         <Link
-          href="/tentang-kami"
+          href="/tentangKami"
           className="mt-12 inline-block border-2 border-[#D94A38] text-[#D94A38] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#D94A38] hover:text-white transition duration-300"
         >
           Pelajari Lebih Lanjut Tentang Kami
